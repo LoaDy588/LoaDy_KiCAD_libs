@@ -1,4 +1,4 @@
-(module BNC_1337543 (layer F.Cu) (tedit 5CD140F6)
+(module BNC_1337543 (layer F.Cu) (tedit 5CD2B163)
   (fp_text reference REF** (at 7.7 7.8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -19,4 +19,9 @@
   (pad 2 thru_hole circle (at -2.72 5.08) (size 1.6 1.6) (drill 0.89) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 4.9 0) (size 2.7 2.7) (drill 2.01) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at -5.26 0) (size 2.7 2.7) (drill 2.01) (layers *.Cu *.Mask))
+  (model "${LOADY_LIB}/3d models/Conn_TE_1-1337543-0_eec.STEP"
+    (offset (xyz -0.25 11 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

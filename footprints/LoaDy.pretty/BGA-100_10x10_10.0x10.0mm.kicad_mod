@@ -1,4 +1,4 @@
-(module BGA-100_10x10_10.0x10.0mm (layer F.Cu) (tedit 5C9B5CD3)
+(module BGA-100_10x10_10.0x10.0mm (layer F.Cu) (tedit 5CD2B0CB)
   (solder_mask_margin 0.075)
   (solder_paste_margin 0.035)
   (attr smd)
@@ -131,4 +131,9 @@
   (pad H10 smd circle (at 3.6 2) (size 0.33 0.33) (layers F.Cu F.Paste F.Mask))
   (pad J10 smd circle (at 3.6 2.8) (size 0.33 0.33) (layers F.Cu F.Paste F.Mask))
   (pad K10 smd circle (at 3.6 3.6) (size 0.33 0.33) (layers F.Cu F.Paste F.Mask))
+  (model "${LOADY_LIB}/3d models/bga_9x9mm.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )
