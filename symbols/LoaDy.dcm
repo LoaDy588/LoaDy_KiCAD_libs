@@ -6,6 +6,12 @@ K single timer
 F http://www.ti.com/lit/ds/symlink/lm555.pdf
 $ENDCMP
 #
+$CMP USBLC6-2SC6
+D Bidirectional ESD Protection Diode, SOT-23-6
+K usb ethernet
+F http://www2.st.com/resource/en/datasheet/CD00050750.pdf
+$ENDCMP
+#
 $CMP VBAT
 D VBAT power rail
 K Power Flag Symbol
